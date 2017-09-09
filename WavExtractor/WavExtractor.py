@@ -108,7 +108,7 @@ class WavExtractor:
         @CustomConfigDecorators.getter
         def debug_skip_write(self):
             """Skip writing the output file for debug purposes"""
-            return True
+            return False
 
         ### -------------------------------------------
 
